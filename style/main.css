@@ -1,0 +1,43 @@
+.container__principal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title__main {
+    display: block;
+    margin: auto;
+    width: 10.7em;
+    font-size: 1.8rem; 
+    font-weight: bold;
+    padding: 3em 1em 1.5em 1em;
+}
+
+.title__main__red {
+    color: var(--cor-principal);
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 55px;
+    column-gap: 1em;
+}
+
+.contato__titulo {
+    font-weight: bolder;
+}
+
+.contato__imagem {
+    width: 25px;
+}
+
+.container__solucoes {
+    display: block;
+    margin: auto;
+    width: 80vw;
+    border-radius: 50px;
+    background-color: var(--cor-quartenaria);
+}
+    
