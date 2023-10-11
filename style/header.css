@@ -1,4 +1,4 @@
-.cabeçalho {
+.cabecalho {
     background-color: var();
     display: flex;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.cabeçalho__menu-hamburguer {
+.cabecalho__menu-hamburguer {
     width: 33px;
     height: 40px;
     background-image: url("/img/menu_red.svg");
