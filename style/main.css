@@ -34,10 +34,43 @@
 }
 
 .container__solucoes {
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
     width: 80vw;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: var(--cor-quartenaria);
 }
+
+.container__solucoes__title {
+    color: var(--cor-principal);
+    font-weight: bolder;
+    text-align: center;
+    padding: 2em; 
+}
+
+.container__solucoes__descricao {
+    position: relative;
+    text-align: center;
+    bottom: 140px;
+}
+
+.tipo__sistema {
+    font-size: 2.5rem;
+    color: var(--cor-secundaria);
+}
+
+.nome__sistema {
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: var(--cor-secundaria);
+}
+
+.embarcador {
+    font-size: 1.4rem;
+}
+
     
