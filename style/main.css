@@ -73,4 +73,44 @@
     font-size: 1.4rem;
 }
 
+/*--------------------------------------------------------*/
+
+.titulo__servicos {
+    color: var(--cor-principal);
+    margin-bottom: 25px;
+}
+
+.servicos__destaque { 
+    font-weight: bold;
+}
+
+.container__servicos {
+    display: block;
+    margin: auto;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+    width: 80vw;
+    margin-top: 15px;
+
+    background-color: var(--cor-quartenaria);
+    border-radius: 30px;
+}
+
+.icon__servicos {
+    margin-left: 10px;
+    width: 35px; 
+}
+
+/*------------------------------------------------------------*/
+
+.container__entregando-online {
+    background-color: var(--cor-principal);
+}
+
     
