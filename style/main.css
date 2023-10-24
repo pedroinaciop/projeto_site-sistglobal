@@ -111,6 +111,80 @@
 
 .container__entregando-online {
     background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 20px 80px;
 }
 
-    
+.titulo__entregando-online {
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.botoes__baixe-entregando-online {
+    background-color: var(--cor-principal);
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+}
+
+.botoes__saiba-entregando-online {
+    background-color: var(--cor-secundaria);
+    border: 0px;
+    color: var(--cor-principal);
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container_comentarios {
+    background-color: rgba(0, 0, 0, 0.35); 
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.comentario__usuario {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.critica {
+    margin-top: 25px;
+}
+
+.icon__user {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+}
+
