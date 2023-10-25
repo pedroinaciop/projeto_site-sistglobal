@@ -110,17 +110,17 @@
 /*------------------------------------------------------------*/
 
 .container__entregando-online {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
-    padding: 20px 40px;
+    padding: 40px;
 }
 
 .titulo__entregando-online {
     font-size: 1.5rem;
     font-weight: bold;
-}
-.botoes__entregando-online {
-    
 }
 
 .botoes__baixe-entregando-online {
@@ -148,6 +148,8 @@
 }
 
 .container_comentarios {
+    display: block;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.35); 
     padding: 20px;
     width: 200px;
