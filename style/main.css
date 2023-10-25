@@ -112,12 +112,15 @@
 .container__entregando-online {
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
-    padding: 20px 80px;
+    padding: 20px 40px;
 }
 
 .titulo__entregando-online {
+    font-size: 1.5rem;
     font-weight: bold;
-    margin: 20px 0px;
+}
+.botoes__entregando-online {
+    
 }
 
 .botoes__baixe-entregando-online {
@@ -140,25 +143,18 @@
     width: 100px;
 }
 
-
-
-
-
-
-
-
-
-
+.titulo__avaliacoes {
+    font-size: 1.5rem;
+}
 
 .container_comentarios {
     background-color: rgba(0, 0, 0, 0.35); 
     padding: 20px;
     width: 200px;
     height: 100px;
-
 }
 
-.comentarios {
+.dados__usuarios__comentarios {
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -170,11 +166,11 @@
     gap: 8px;
 }
 
-.critica {
+.comentario__texto {
     margin-top: 25px;
 }
 
-.icon__user {
+.icone__usuario {
     height: 20px;
     border-radius: 10px;
 }
