@@ -7,10 +7,10 @@
 .title__main {
     display: block;
     margin: auto;
-    width: 10.7em;
+    width: 14rem;
     font-size: 1.8rem; 
     font-weight: bold;
-    padding: 3em 1em 1.5em 1em;
+    padding: 3rem 1rem 1.5rem 1rem;
 }
 
 .title__main__red {
@@ -22,7 +22,8 @@
     flex-direction: row;
     align-items: center;
     margin-left: 55px;
-    column-gap: 1em;
+    column-gap: 1rem;
+    margin-top: 10px;
 }
 
 .contato__titulo {
@@ -123,6 +124,10 @@
     font-weight: bold;
 }
 
+.descricao__entregando-online {
+    line-height: 16px;
+}
+
 .botoes__baixe-entregando-online {
     background-color: var(--cor-principal);
     border: 1px solid var(--cor-secundaria);
@@ -148,41 +153,76 @@
 }
 
 .container_comentarios {
-    display: block;
-    margin: auto;
     background-color: rgba(0, 0, 0, 0.35); 
-    padding: 20px;
-    width: 200px;
-    height: 100px;
+    padding: 12px;
+    width: 8.5rem;
+    height: 6rem;
+}
+
+.comentarios__flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .dados__usuarios__comentarios {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 25px;
 }
 
 .comentario__usuario {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    font-size: .85rem;
     gap: 8px;
 }
 
+.comentario__usuario {
+    font-size: .9rem;
+}
+
 .comentario__texto {
-    margin-top: 25px;
+    font-size: .75rem;
+    margin-top: 20px;
 }
 
 .icone__usuario {
-    height: 20px;
+    height: 18px;
     border-radius: 10px;
 }
 
-.estrelas input[type=radio] {
-    display: none;
+/*------------------------------------------------------------*/
+
+.container__novidades-sist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 40px;
 }
 
-.estrelas label i.fa:before {
-    content:'\f005';
-    color: #FC0;
+.titulo__novidades-sist {
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+    font-weight: bold;
 }
 
+.descricao__novidades-sist {
+    font-size: .9rem;
+    color: var(--cor-tercearia);
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.texto__novidades-sist {
+    font-size: .9rem;
+    color: var(--cor-tercearia);
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.texto__novidades-sist span {
+    font-weight: bold;
+}
